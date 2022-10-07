@@ -42,7 +42,7 @@ h6{
     font-size: 18px;
 }
 span{
-    color: red;
+    color: #E50914;
 }
 ul{
     padding: 0;
@@ -143,7 +143,7 @@ html::-webkit-scrollbar-thumb{
     margin-bottom: 0;
 }
 .button{
-    background: red;
+    background: #E50914;
     padding: 12px 30px;
     font-weight: 500px;
     font-size: 15px;
@@ -160,14 +160,14 @@ html::-webkit-scrollbar-thumb{
 }
 .button.sign-up{
     background: transparent;
-    border: 2px solid red;
+    border: 2px solid #E50914;
     color: #E50914;
     margin-top: 22px;
 }
 .button.sign-up:hover{
-    border-color: red;
+    border-color: #E50914;
     color: #fff;
-    background: red;
+    background: #E50914;
     transition: 0.5s ease-out;
 }
 /*============================================================ ABOUT SECTION ===========================================================*/
@@ -252,8 +252,8 @@ html::-webkit-scrollbar-thumb{
     color: #E50914;
 }
 .content .sub-button{
-    background: red;
-    border: 2px solid red;
+    background: #E50914;
+    border: 2px solid #E50914;
     color: #fff;
     margin-top: 22px;
     padding: 9px 22px;
@@ -264,15 +264,15 @@ html::-webkit-scrollbar-thumb{
     text-align: center;
     padding: 15px;
     background:#141414;
-    border: 2px solid red;
+    border: 2px solid #E50914;
     border-radius: 15px;
     transition: all 0.3s ease;
 }
 .services .content:hover{
-    background: red;
+    background: #E50914;
 }
 .services .content .icon i{
-    color: red;
+    color: #E50914;
 }
 .services .content .icon{
     padding: 5px;
@@ -289,7 +289,7 @@ html::-webkit-scrollbar-thumb{
 }
 .services .content:hover .sub-button{
     background: #fff;
-    color: red;
+    color: #E50914;
 }
 .services .content i{
     font-size: 60px;

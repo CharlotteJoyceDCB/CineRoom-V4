@@ -105,3 +105,6 @@ html::-webkit-scrollbar-thumb{
     cursor: pointer;
     margin-right: 10px;
 }
+.navbar .navbar-nav li{
+    padding: 0 10px;
+}

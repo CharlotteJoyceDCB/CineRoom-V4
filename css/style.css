@@ -197,7 +197,6 @@ html::-webkit-scrollbar-thumb{
     background: url(../images/parallax-bg.jpg) repeat fixed 100%;
     background-size: cover;
 }
-}
 .parallax-inner{
     padding-top: 15%;
     padding-bottom: 15%;

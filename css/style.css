@@ -367,6 +367,41 @@ html::-webkit-scrollbar-thumb{
 .watchlist-card:hover .watchlist-text{
     height: 100%;
 }
+/* Search bar */
+.movies .search-bar{
+    overflow: hidden;
+    max-width: 240px;
+    /* float: right; */
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    column-gap: 0.7rem;
+    padding: 8px 15px;
+    background: #292929;
+    border-radius: 5px;
+    z-index: 2;
+    margin: 0 10px 15px;
+}
+.search-bar .bx{
+    color: #fff;
+}
+.search-bar .bx:active{
+    transform: scale(1.5);
+    color: #E50914;
+}
+.search-bar .bx:hover{
+    cursor: pointer;
+    color: #E50914;
+}
+#search-input{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: transparent;
+    font-size: 0.938rem;
+}
 /*=========================================================== FOOTER SECTION ===========================================================*/
 footer{
     background: #000000;

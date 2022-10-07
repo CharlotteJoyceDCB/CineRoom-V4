@@ -176,3 +176,19 @@ html::-webkit-scrollbar-thumb{
     width: 100%;
     background-color: #141414;
 }
+.about .content{
+    margin-top: 7rem;
+}
+.about .content-image img{
+    width: 100%;
+    margin-top: 8rem;
+}
+.about .content h2{
+    font-weight: 700;
+}
+.about .content h3{
+    text-align: left;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 3rem;
+}

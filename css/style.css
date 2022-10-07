@@ -93,3 +93,9 @@ html::-webkit-scrollbar-thumb{
     background: red;
     transition: 0.5s ease-out;
 }
+/*============================================================ NAVIGATION BAR ==========================================================*/
+.navbar{
+    background:#000000;
+    transition: 0.5s ease-out;
+    padding: 15px 0;
+}

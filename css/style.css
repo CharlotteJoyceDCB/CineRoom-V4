@@ -57,3 +57,15 @@ ul li{
 .row:last-child{
     margin-bottom: 0;
 }
+.button{
+    background: red;
+    padding: 12px 30px;
+    font-weight: 500px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 22px;
+    border: 2px solid transparent;
+    transition: 0.5s ease-out;
+    display: inline-block;
+}

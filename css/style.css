@@ -229,3 +229,21 @@ html::-webkit-scrollbar-thumb{
     margin-bottom: 2rem;
     text-align: center;
 }
+.services-title .title-top{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+.services-title h5{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.services-title h3{
+    font-size: 36px;
+    font-weight: 800px;
+}
+.services a{
+    cursor: pointer;
+}

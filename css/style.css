@@ -59,40 +59,6 @@ html::-webkit-scrollbar-thumb{
     background: #E50914;
     border-radius: 5rem;
 }
-.row{
-    margin-bottom: 30px;
-}
-.row:last-child{
-    margin-bottom: 0;
-}
-.button{
-    background: red;
-    padding: 12px 30px;
-    font-weight: 500px;
-    font-size: 15px;
-    border-radius: 5px;
-    color: #fff;
-    margin-top: 22px;
-    border: 2px solid transparent;
-    transition: 0.5s ease-out;
-    display: inline-block;
-}
-.button.room:hover{
-    color: #fff;
-    opacity: 0.8;
-}
-.button.sign-up{
-    background: transparent;
-    border: 2px solid red;
-    color: #E50914;
-    margin-top: 22px;
-}
-.button.sign-up:hover{
-    border-color: red;
-    color: #fff;
-    background: red;
-    transition: 0.5s ease-out;
-}
 /*============================================================ NAVIGATION BAR ==========================================================*/
 .navbar{
     background:#000000;
@@ -169,6 +135,40 @@ html::-webkit-scrollbar-thumb{
 }
 .home ul li:last-child{
     margin-left: 15px;
+}
+.row{
+    margin-bottom: 30px;
+}
+.row:last-child{
+    margin-bottom: 0;
+}
+.button{
+    background: red;
+    padding: 12px 30px;
+    font-weight: 500px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 22px;
+    border: 2px solid transparent;
+    transition: 0.5s ease-out;
+    display: inline-block;
+}
+.button.room:hover{
+    color: #fff;
+    opacity: 0.8;
+}
+.button.sign-up{
+    background: transparent;
+    border: 2px solid red;
+    color: #E50914;
+    margin-top: 22px;
+}
+.button.sign-up:hover{
+    border-color: red;
+    color: #fff;
+    background: red;
+    transition: 0.5s ease-out;
 }
 /*============================================================ ABOUT SECTION ===========================================================*/
 .about{

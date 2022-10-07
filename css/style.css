@@ -128,3 +128,7 @@ html::-webkit-scrollbar-thumb{
 .navbar .navbar-toggler:focus{
     outline: 0;
 }
+.navbar.navbar-fixed{
+    background: #fff;
+    transition: 0.5s ease-out;
+}

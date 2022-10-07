@@ -218,3 +218,9 @@ html::-webkit-scrollbar-thumb{
 .parallax a:hover{
     color: #E50914;
 }
+/*========================================================== SERVICES SECTION ==========================================================*/
+.services{
+    height: 100vh;
+    width: 100%;
+    background-color: #141414;
+}

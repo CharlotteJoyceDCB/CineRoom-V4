@@ -247,3 +247,57 @@ html::-webkit-scrollbar-thumb{
 .services a{
     cursor: pointer;
 }
+.services .sub-button a:active{
+    transform: scale(1.5);
+    color: #E50914;
+}
+.content .sub-button{
+    background: red;
+    border: 2px solid red;
+    color: #fff;
+    margin-top: 22px;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.services .content{
+    text-align: center;
+    padding: 15px;
+    background:#141414;
+    border: 2px solid red;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.services .content:hover{
+    background: red;
+}
+.services .content .icon i{
+    color: red;
+}
+.services .content .icon{
+    padding: 5px;
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+}
+.services .content:hover i,
+.services .content:hover h5,
+.services .content:hover p,
+.services .content:hover a{
+    color: #fff;
+    text-decoration: none;
+}
+.services .content:hover .sub-button{
+    background: #fff;
+    color: red;
+}
+.services .content i{
+    font-size: 60px;
+    color: #fff;
+}
+.services .content h5{
+    margin-bottom: 10px;
+}
+.services .row{
+    min-height: 20rem;
+}

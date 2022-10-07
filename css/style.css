@@ -224,3 +224,8 @@ html::-webkit-scrollbar-thumb{
     width: 100%;
     background-color: #141414;
 }
+.services-title{
+    padding-top: 6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}

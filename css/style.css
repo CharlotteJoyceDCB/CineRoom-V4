@@ -79,3 +79,9 @@ ul li{
     color: #E50914;
     margin-top: 22px;
 }
+.button.sign-up:hover{
+    border-color: red;
+    color: #fff;
+    background: red;
+    transition: 0.5s ease-out;
+}

@@ -125,3 +125,6 @@ html::-webkit-scrollbar-thumb{
 .navbar .navbar-toggler i{
     font-size: 28px;
 }
+.navbar .navbar-toggler:focus{
+    outline: 0;
+}

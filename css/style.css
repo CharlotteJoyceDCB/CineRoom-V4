@@ -192,3 +192,8 @@ html::-webkit-scrollbar-thumb{
     color: #ffffff;
     margin-top: 3rem;
 }
+/*========================================================== OUTRO SECTION ==========================================================*/
+.parallax{
+    background: url(../images/parallax-bg.jpg) repeat fixed 100%;
+    background-size: cover;
+}

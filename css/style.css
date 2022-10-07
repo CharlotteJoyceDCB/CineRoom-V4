@@ -118,3 +118,7 @@ html::-webkit-scrollbar-thumb{
     color: #E50914;
     background-color: #292929;
 }
+.navbar .navbar-toggler{
+    border-radius: 0;
+    border: 0;
+}

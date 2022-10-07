@@ -99,3 +99,9 @@ html::-webkit-scrollbar-thumb{
     transition: 0.5s ease-out;
     padding: 15px 0;
 }
+.navbar .navbar-brand img{
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}

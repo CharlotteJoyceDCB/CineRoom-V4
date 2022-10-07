@@ -301,6 +301,72 @@ html::-webkit-scrollbar-thumb{
 .services .row{
     min-height: 20rem;
 }
+/*============================================================ MOVIES SECTION ==========================================================*/
+#movies{
+    background-color: #151516;
+    max-width: 1920px;
+    padding: 5rem;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+.movies .heading, .search-bar{
+    margin-left: 10px;
+}
+.movies .heading h2{
+    padding-top: 1rem;
+    font-weight: 600;
+}
+.watchlist-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 1.5rem;
+    cursor: pointer;  
+}
+.watchlist-card{
+    position: relative;
+    width: 100%;
+    height: 380px;
+}
+.watchlist-card img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.watchlist-title{
+    font-weight: 500;
+}
+.watchlist-text{
+    position: absolute;
+    margin-top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 30px;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.watchlist-text h2,
+.watchlist-text span,
+.watchlist-text p{
+    color: #fff;
+}
+.watchlist-text i{
+    float: right;
+    margin-top: -5px;
+    margin-right: 1px;
+    color: orange;
+    font-size: 48px;
+}
+.watchlist-card:hover .watchlist-text{
+    height: 100%;
+}
 /*=========================================================== FOOTER SECTION ===========================================================*/
 footer{
     background: #000000;

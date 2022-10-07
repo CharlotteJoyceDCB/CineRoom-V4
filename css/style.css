@@ -475,3 +475,58 @@ footer ul li a i{
         padding-top: 3rem;
     }
 }
+@media (max-width: 768px){
+    .about{
+        height: fit-content;
+    }
+    .about .content-image{
+        display: none;
+    }
+    .about .content{
+        margin-top: 3rem;
+    }
+    .parallax h3{
+        font-size: 18px;
+    }
+    .parallax h5{
+        font-size: 11px;
+    }
+    .watchlist-content h2{
+        font-size: 24px;
+    }
+    .watchlist-content span,
+    .watchlist-content p{
+        font-size: 12px;
+    }
+    .services-title{
+        padding-top: 5rem;
+    }
+    .services{
+        height: fit-content;
+    }
+    .services .content{
+        margin-bottom: 1rem;
+    }
+    .services .row:last-child{
+        padding-bottom: 3rem;
+    }
+    footer .row .content{
+        font-size: 8px;
+    }
+    footer .copyright{
+        font-size: 8px;
+    }
+    .watchlist-content{
+        grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+        overflow: auto;
+    }
+    .watchlist-card{
+        height: 250px;
+    }
+    #movies{
+        padding: 2rem;
+    }
+    .movies .heading h2{
+        padding-top: 3rem;
+    }
+}

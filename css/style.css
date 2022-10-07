@@ -150,3 +150,23 @@ html::-webkit-scrollbar-thumb{
     object-fit: cover;
     z-index: -2;
 }
+.home h1{
+    font-weight: 600;
+}
+.home h3{
+    font-family: 'Lora', serif;
+    text-align: left;
+}
+.home .content p{
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.home .content-image img{
+    width: 100%;
+}
+.home ul li{
+    display: inline-block;
+}
+.home ul li:last-child{
+    margin-left: 15px;
+}

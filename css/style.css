@@ -108,3 +108,9 @@ html::-webkit-scrollbar-thumb{
 .navbar .navbar-nav li{
     padding: 0 10px;
 }
+.navbar .navbar-nav li .nav-link{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}

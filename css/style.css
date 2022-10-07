@@ -530,3 +530,71 @@ footer ul li a i{
         padding-top: 3rem;
     }
 }
+@media (max-width: 375px){
+    .home{
+        height: 100vh;
+    }
+    .home .content{
+        font-size: 16px;
+    }
+    .about .content-image{
+        display: none;
+    }
+    .about{
+        height: 100vh;
+    }
+    .about .content{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .services-title{
+        padding-top: 5rem;
+    }
+    .parallax h3{
+        font-size: 18px;
+    }
+    .parallax h5{
+        font-size: 11px;
+    }
+    .watchlist-content h2{
+        font-size: 16px;
+    }
+    .watchlist-content span,
+    .watchlist-content p{
+        font-size: 12px;
+    }
+    .services{
+        height: fit-content;
+    }
+    .services-title h5{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .services .content{
+        margin-bottom: 1rem;
+    }
+    .services .row:last-child{
+        padding-bottom: 5rem;
+    }
+    .watchlist-content{
+        grid-template-columns: repeat(auto-fit, minmax(140px, auto));
+    }
+    .watchlist-card{
+        height: 190px;
+    }
+    footer .row .content{
+        font-size: 8px;
+    }
+    footer .copyright{
+        font-size: 8px;
+    }
+    #movies{
+        padding: 1rem;
+    }
+    .movies .heading h2{
+        padding-top: 3rem;
+    }
+    footer .copyright{
+        font-size: 10px;
+    }
+}

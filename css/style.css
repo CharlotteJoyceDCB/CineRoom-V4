@@ -197,3 +197,25 @@ html::-webkit-scrollbar-thumb{
     background: url(../images/parallax-bg.jpg) repeat fixed 100%;
     background-size: cover;
 }
+}
+.parallax-inner{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color:rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 10px 20px black inset;
+}
+.parallax-inner h5, h3{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.parallax-inner h3{
+    font-weight: 500;
+    font-family: 'Poppins' serif;
+}
+.parallax a{
+    color: #E50914;
+}
+.parallax a:hover{
+    color: #E50914;
+}

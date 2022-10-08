@@ -440,7 +440,7 @@ footer ul li a i{
     margin: 0;
 }
 /*================================================================  RESPONSIVENESS ===============================================================*/
-@media (max-width: 1280px){
+@media (max-width: 1031px){
     .home .content h2{
         font-size: 40px;
     }
@@ -463,7 +463,7 @@ footer ul li a i{
         padding-bottom: 5rem;
     }
     .watchlist-content{
-        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        grid-template-columns: repeat(auto-fit, minmax(190px, auto));
     }
     .watchlist-card{
         height: 290px;
@@ -472,9 +472,44 @@ footer ul li a i{
         padding: 5rem;
     }
     .movies .heading h2{
-        padding-top: 3rem;
+        padding-top: 2rem;
+    }
+@media (max-width: 992px){
+    .home .content h2{
+        font-size: 40px;
+    }
+    .about .content-image{
+        visibility: visible;
+    }
+    .about{
+        height: max-content;
+    }
+    .about .content{
+        padding-bottom: 5rem;
+    }
+    .services{
+        height: fit-content;
+    }
+    .services .content{
+        padding-bottom: 2rem;
+    }
+    .services .row:last-child{
+        padding-bottom: 5rem;
+    }
+    .watchlist-content{
+        grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    }
+    .watchlist-card{
+        height: 290px;
+    }
+    #movies{
+        padding: 5rem;
+    }
+    .movies .heading h2{
+        padding-top: 2rem;
     }
 }
+
 @media (max-width: 768px){
     .about{
         height: fit-content;
@@ -597,4 +632,5 @@ footer ul li a i{
     footer .copyright{
         font-size: 10px;
     }
+}
 }

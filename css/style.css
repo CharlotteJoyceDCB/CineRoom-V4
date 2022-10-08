@@ -440,7 +440,7 @@ footer ul li a i{
     margin: 0;
 }
 /*================================================================  RESPONSIVENESS ===============================================================*/
-@media (max-width: 1031px){
+@media (max-width: 1400px){
     .home .content h2{
         font-size: 40px;
     }
@@ -503,7 +503,7 @@ footer ul li a i{
         height: 290px;
     }
     #movies{
-        padding: 5rem;
+        padding: 3rem;
     }
     .movies .heading h2{
         padding-top: 2rem;
